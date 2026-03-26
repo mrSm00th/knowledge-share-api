@@ -13,5 +13,6 @@ class Settings(BaseSettings):
     likes_per_page: int = 10
     users_per_page: int = 10
 
+    max_upload_size_bytes : int = 5*1024*1024 # 5mb
 
 settings = Settings()
